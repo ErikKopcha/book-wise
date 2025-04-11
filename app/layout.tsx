@@ -54,7 +54,6 @@ const RootLayout = async ({ children }: { children: ReactNode }) => {
 				className={`${ibmPlexSans.className} ${bebasNeue.variable} antialiased`}
 			>
 				{children}
-
 				<Toaster />
 			</body>
 		</html>

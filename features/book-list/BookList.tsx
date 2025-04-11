@@ -1,7 +1,7 @@
 const BookList = () => {
 	return (
 		<section>
-			<h2 className="font-bebas-neue text-4px text-light-400">Popular Books</h2>
+			<h2 className="text-4px font-bebas-neue text-light-400">Popular Books</h2>
 		</section>
 	);
 };

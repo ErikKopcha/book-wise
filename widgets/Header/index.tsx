@@ -11,7 +11,7 @@ const Header = () => {
 
 	return (
 		<header className="my-10 flex justify-between gap-5">
-			<Link href={ROUTES.HOME}>
+			<Link href={ROUTES.HOME.href}>
 				<Image alt="logo" src="/icons/logo.svg" width={40} height={40} />
 			</Link>
 			<ul className="flex flex-row items-center gap-8">
@@ -19,11 +19,13 @@ const Header = () => {
 					<Link
 						className={cn(
 							'text-base cursor-pointer capitalize',
-							pathname === ROUTES.LIBRARY ? 'text-light-200' : 'text-light-100'
+							pathname === ROUTES.LIBRARY.href
+								? 'text-light-200'
+								: 'text-light-100'
 						)}
-						href={ROUTES.LIBRARY}
+						href={ROUTES.LIBRARY.href}
 					>
-						Library
+						{ROUTES.LIBRARY.label}
 					</Link>
 				</li>
 			</ul>
