@@ -51,6 +51,7 @@
 
   .book-btn {
     @apply bg-dark-600 mt-3 min-h-12 w-full font-bebas-neue text-base text-primary;
+    transition: all 0.2s ease !important;
   }
 
   /* Borrowed Book */

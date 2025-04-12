@@ -2,7 +2,7 @@ export type TBookCoverVariant = "extraSmall" | 'small' | 'medium' | 'regular' | 
 
 export interface IBookCover {
   className?: string;
-  variant: TBookCoverVariant;
+  variant?: TBookCoverVariant;
   coverColor: string;
   coverUrl: string;
 }

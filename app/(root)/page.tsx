@@ -1,6 +1,6 @@
-import { sampleBooks } from '@/shared/constants/common';
 import BookList from '@/features/book-list/BookList';
-import BookOverview from '@/entities/book/ui/BookOverview';
+import BookOverview from '@/features/book-overview/BookOverview';
+import { sampleBooks } from '@/shared/constants/common';
 
 export default function Home() {
 	return (

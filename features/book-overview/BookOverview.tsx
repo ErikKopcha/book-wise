@@ -1,7 +1,7 @@
+import { IBook } from '@/entities/book/model';
+import BookCover from '@/entities/book/ui/BookCover';
 import { Button } from '@/shared/ui/button';
 import Image from 'next/image';
-import { IBook } from '../model';
-import BookCover from './BookCover';
 
 const BookOverview = (bookInfo: IBook) => {
 	const {

@@ -8,6 +8,7 @@ export default {
     "./widgets/**/*.{js,ts,jsx,tsx,mdx}",
     "./shared/ui/**/*.{js,ts,jsx,tsx,mdx}",
     "./entities/**/*.{js,ts,jsx,tsx,mdx}",
+    "./features/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
