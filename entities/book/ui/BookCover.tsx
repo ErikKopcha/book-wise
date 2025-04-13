@@ -1,5 +1,5 @@
 import BookCoverSvg from '@/entities/book/ui/BookCoverSvg';
-import { cn } from '@/shared/libs/utils';
+import { cn } from '@/shared/utils';
 import Image from 'next/image';
 import { variantSyules } from '../constants';
 import { IBookCover } from '../model';

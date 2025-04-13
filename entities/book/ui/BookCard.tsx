@@ -1,5 +1,5 @@
-import { cn } from '@/shared/libs/utils';
 import { Button } from '@/shared/ui/button';
+import { cn } from '@/shared/utils';
 import Image from 'next/image';
 import Link from 'next/link';
 import { IBook } from '../model';

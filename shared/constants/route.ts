@@ -3,6 +3,14 @@ export const ROUTES = {
     href: '/',
     label: 'Home'
   },
+  SIGN_IN: {
+    href: '/sign-in',
+    label: 'Sign In'
+  },
+  SIGN_UP: {
+    href: '/sign-up',
+    label: 'Sign Up'
+  },
   LIBRARY: {
     href: "/library",
     label: "Library",

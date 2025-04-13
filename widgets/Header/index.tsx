@@ -1,7 +1,7 @@
 'use client';
 
 import { ROUTES } from '@/shared/constants/route';
-import { cn } from '@/shared/libs/utils';
+import { cn } from '@/shared/utils';
 import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
